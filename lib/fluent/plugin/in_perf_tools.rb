@@ -17,7 +17,7 @@ module Fluent
       desc "Command args"
       config_param :command_args, :string, default: nil
       desc "Interval"
-      config_param :interval, :time, default: 5
+      config_param :interval, :time, default: 30
 
       def configure(conf)
         super
